@@ -1,0 +1,83 @@
+{
+  "name": "@peavy-log/react-native",
+  "version": "1.0.0",
+  "description": "Peavy remote logging library for React Native",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./integrations/axios": {
+      "types": "./dist/integrations/axios/index.d.ts",
+      "import": "./dist/integrations/axios/index.js",
+      "require": "./dist/integrations/axios/index.js"
+    },
+    "./hooks": {
+      "types": "./dist/hooks/index.d.ts",
+      "import": "./dist/hooks/index.js",
+      "require": "./dist/hooks/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "logging",
+    "remote-logging",
+    "peavy",
+    "typescript",
+    "react-native"
+  ],
+  "author": "Magnus (magnm@github)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peavy-log/react-native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peavy-log/react-native/issues"
+  },
+  "homepage": "https://github.com/peavy-log/react-native#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/pako": "^2.0.3",
+    "@types/react": "^19.2.0",
+    "axios": "^1.14.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "pako": "^2.1.0"
+  },
+  "peerDependencies": {
+    "@react-navigation/native": ">=6.0.0",
+    "axios": "^0.27.0 || ^1.0",
+    "react": ">=16.0.0",
+    "react-native": ">=0.80.0",
+    "react-native-device-info": ">=14.0.0",
+    "react-native-fs": ">=2.20.0"
+  },
+  "peerDependenciesMeta": {
+    "@react-navigation/native": {
+      "optional": true
+    },
+    "axios": {
+      "optional": true
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
