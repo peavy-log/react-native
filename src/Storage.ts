@@ -1,4 +1,4 @@
-import RNFS from "react-native-fs";
+import * as RNFS from "@dr.pogodin/react-native-fs";
 import { LogEntry, logEntryToJson } from "./LogEntry";
 import { Debug } from "./Debug";
 

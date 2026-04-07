@@ -5,9 +5,7 @@ Peavy remote logging library for React Native.
 ## Installation
 
 ```bash
-npm install @peavy-log/react-native pako react-native-fs react-native-device-info
-# or
-yarn add @peavy-log/react-native pako react-native-fs react-native-device-info
+npm install @peavy-log/react-native
 ```
 
 For iOS, run `cd ios && pod install` after installation.

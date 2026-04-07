@@ -57,15 +57,15 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "pako": "^2.1.0"
+    "@dr.pogodin/react-native-fs": ">=2.0.0",
+    "pako": "^2.1.0",
+    "react-native-device-info": ">=14.0.0"
   },
   "peerDependencies": {
     "@react-navigation/native": ">=6.0.0",
     "axios": "^0.27.0 || ^1.0",
     "react": ">=16.0.0",
-    "react-native": ">=0.80.0",
-    "react-native-device-info": ">=14.0.0",
-    "react-native-fs": ">=2.20.0"
+    "react-native": ">=0.80.0"
   },
   "peerDependenciesMeta": {
     "@react-navigation/native": {

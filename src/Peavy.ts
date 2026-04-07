@@ -1,5 +1,5 @@
 import { ErrorUtils } from "react-native";
-import RNFS from "react-native-fs";
+import * as RNFS from "@dr.pogodin/react-native-fs";
 import { PeavyOptions, DEFAULT_OPTIONS } from "./options/PeavyOptions";
 import { Logger } from "./Logger";
 import { Storage } from "./Storage";
