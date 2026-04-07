@@ -1,6 +1,6 @@
 {
   "name": "@peavy-log/react-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Peavy remote logging library for React Native",
   "main": "dist/index.js",
   "module": "dist/index.js",
